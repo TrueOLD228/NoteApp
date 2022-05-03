@@ -33,7 +33,7 @@ namespace NoteAppUI
         private void VisitLinkMail()
         {
             linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("mailto: ek19@fakemail.com");
+            System.Diagnostics.Process.Start("mailto: pavel_poryvaev@mail.ru");
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -51,7 +51,7 @@ namespace NoteAppUI
         private void VisitLinkGitHub()
         {
             linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://github.com/egor19991/NoteApp/");
+            System.Diagnostics.Process.Start("https://github.com/TrueOLD228/NoteApp/");
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
