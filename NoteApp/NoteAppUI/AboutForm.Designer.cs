@@ -49,7 +49,7 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(28, 26);
+            this.label1.Location = new System.Drawing.Point(129, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 0;
@@ -61,7 +61,7 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 55);
+            this.label2.Location = new System.Drawing.Point(213, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 1;
@@ -73,11 +73,11 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 103);
+            this.label3.Location = new System.Drawing.Point(34, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 13);
+            this.label3.Size = new System.Drawing.Size(119, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Author: Egor Krasnov";
+            this.label3.Text = "Author: Pavel Poryvaev";
             // 
             // label4
             // 
@@ -85,7 +85,7 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 147);
+            this.label4.Location = new System.Drawing.Point(34, 95);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 13);
             this.label4.TabIndex = 3;
@@ -97,12 +97,12 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(130, 147);
+            this.linkLabel1.Location = new System.Drawing.Point(140, 95);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(104, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(124, 13);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "ek19@fakemail.com";
+            this.linkLabel1.Text = "pavel_poryvaev@mail.ru";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label5
@@ -111,7 +111,7 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 172);
+            this.label5.Location = new System.Drawing.Point(34, 123);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 5;
@@ -123,18 +123,18 @@ namespace NoteAppUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(79, 172);
+            this.linkLabel2.Location = new System.Drawing.Point(83, 123);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(198, 13);
+            this.linkLabel2.Size = new System.Drawing.Size(209, 13);
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "https://github.com/egor19991/NoteApp";
+            this.linkLabel2.Text = "https://github.com/TrueOLD228/NoteApp";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 195);
+            this.label6.Location = new System.Drawing.Point(34, 152);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(33, 13);
             this.label6.TabIndex = 7;
@@ -143,7 +143,7 @@ namespace NoteAppUI
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(74, 195);
+            this.linkLabel3.Location = new System.Drawing.Point(73, 152);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(91, 13);
             this.linkLabel3.TabIndex = 8;
@@ -154,11 +154,12 @@ namespace NoteAppUI
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(32, 255);
+            this.label7.Location = new System.Drawing.Point(152, 253);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 13);
+            this.label7.Size = new System.Drawing.Size(31, 13);
             this.label7.TabIndex = 9;
-            this.label7.Text = "2020 Egor Krasnov";
+            this.label7.Text = "2022";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // AboutForm
             // 

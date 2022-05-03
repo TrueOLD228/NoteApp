@@ -71,5 +71,10 @@ namespace NoteAppUI
             linkLabel1.LinkVisited = true;
             System.Diagnostics.Process.Start("https://icons8.ru/");
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
